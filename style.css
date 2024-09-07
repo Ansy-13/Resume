@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    background-color: #333;
+    color: #d0c049cf;
+    padding: 20px 0;
+    text-align: center;
+
+  
+  }
+  
+ 
+  
+  header h1 {
+    margin-bottom: 5px;
+  }
+  
+  header .subtitle {
+    font-size: 18px;
+    color: #ccc;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #333;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+  }
+  
+  .experience-item, .education-item {
+    margin-bottom: 20px;
+  }
+  
+  .experience-item h3, .education-item h3 {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .company, .institution {
+    font-style: italic;
+    color: #777;
+  }
+  
+  ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+  }
+  
+  .skills li {
+    background-color: #333;
+    color: #fff;
+    padding: 8px 12px;
+    margin: 5px;
+    border-radius: 4px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #8c2121;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+  }
+  
+  button {
+    display: inline-block;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
